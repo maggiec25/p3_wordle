@@ -1,4 +1,8 @@
-word = "great"
+import random
+
+possible_words = ["great", "swift", "slime", "break", "quake"]
+
+word = random.choice(possible_words)
 
 # colors for printing
 default = '\033[0m'
